@@ -1,3 +1,6 @@
 make clean
-make
-./test
+make maldelbrot
+./maldelbrot
+cd ../src
+/bin/python3 "/home/tyrty/Рабочий стол/repos/RAS/kombarov-cuda-test/src/Graph.py"
+cd ../build 
